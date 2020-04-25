@@ -4,13 +4,165 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wondernect.boot</groupId>
+    <parent>
+        <groupId>com.wondernect.boot</groupId>
+        <artifactId>wondernect-boot-starter-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <artifactId>wondernect-elements-starter-parent</artifactId>
-    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <name>wondernect-elements-starter-parent</name>
     <url>http://www.example.com</url>
+
+    <properties>
+        <wondernect.elements.version>1.0.0</wondernect.elements.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- property-source -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>property-source</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- common -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>common</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- context -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>context</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- authorize-context -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>authorize-context</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- algorithm -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>algorithm</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- rdb-common -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>rdb-common</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- rdb -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>rdb</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- redis -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>redis</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- elasticsearch -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- easyoffice -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>easyoffice</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- file-client -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>file-client</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- http-client -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>http-client</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- mail-client -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>mail-client</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- sms-client -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>sms-client</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- i18n -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>i18n</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- log -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>log</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- swagger-api -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>swagger-api</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- itext -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>itext</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- thymeleaf -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>thymeleaf</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
+            <!-- rabbitmq -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>rabbitmq</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <repositories>
         <repository>
