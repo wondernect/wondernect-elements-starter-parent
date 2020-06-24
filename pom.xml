@@ -168,6 +168,13 @@
                 <artifactId>rabbitmq</artifactId>
                 <version>${wondernect.elements.version}</version>
             </dependency>
+
+            <!-- boot-application -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>boot-application</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
