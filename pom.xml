@@ -127,6 +127,13 @@
                 <version>${wondernect.elements.version}</version>
             </dependency>
 
+            <!-- jdbc-client -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>jdbc-client</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
             <!-- i18n -->
             <dependency>
                 <groupId>com.wondernect.elements</groupId>
