@@ -148,6 +148,13 @@
                 <version>${wondernect.elements.version}</version>
             </dependency>
 
+            <!-- log-context -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>log-context</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
             <!-- swagger-api -->
             <dependency>
                 <groupId>com.wondernect.elements</groupId>
