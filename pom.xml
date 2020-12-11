@@ -50,6 +50,13 @@
                 <version>${wondernect.elements.version}</version>
             </dependency>
 
+            <!-- feign-context -->
+            <dependency>
+                <groupId>com.wondernect.elements</groupId>
+                <artifactId>feign-context</artifactId>
+                <version>${wondernect.elements.version}</version>
+            </dependency>
+
             <!-- algorithm -->
             <dependency>
                 <groupId>com.wondernect.elements</groupId>
